@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles2.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+
+    
+    <div class="container">
+        <div class="form">
+            <form action = "Back-End login/Back-End_Login.php" method="post">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Login</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="index.html">Cadastre-se</a></button> <!--back-end necessário -->
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="Nome" placeholder="Digite seu email"
+                            required>
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="Senha" placeholder="Digite sua senha" required>
+                    </div>
+                </div>
+
+                <div class="forgot-password">
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+
+                <div class="login-options">
+                    <h6>Faça login com:</h6>
+                    <div class="social-icons">
+                        <img src="assets/img/google-icon.svg" alt="Google">
+                        <img src="assets/img/microsoft-icon.svg" alt="Microsoft">
+                        <img src="assets/img/apple-icon.svg" alt="Apple">
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button type="submit" name="enviar"><a href="#" >Entrar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

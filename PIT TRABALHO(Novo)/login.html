@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Faça Login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/login.css'>
+    <!-- biblioteca de ícones -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <script src='assets/js/login.js'></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#"><i class="fa-regular fa-lightbulb"></i> Ideias</a></li>
+                    <li><a href="#"><i class="fa-solid fa-money-bill"></i> Apoiador</a></li>
+                </ul>
+            </nav>
+
+            <div class="logo">
+                <img alt="Logo" src="assets/img/LOGO.png">
+            </div>
+
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i> Pesquisar</a></li>
+                    <li><a href="#"><i class="fa-regular fa-user "></i></a></li>
+                </ul>
+            </nav>
+
+            <div class="mobile-nav-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <nav class="mobile-nav">
+                <ul>
+                    <li><a href="#"><i class="fa-regular fa-lightbulb"></i> Ideias</a></li>
+                    <li><a href="#"><i class="fa-solid fa-money-bill"></i> Apoiador</a></li>
+                    <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i> Pesquisar</a></li>
+                    <li><a href="perfil-user.html"><i class="fa-regular fa-user "></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img/cadastroimg.svg">
+        </div>
+        <div class="form">
+            <form action="Back-End_Login.php" method="post">
+                <!-- back-end necessário -->
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Login</h1>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="Nome" placeholder="Digite seu email" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="Senha" placeholder="Digite sua senha" required>
+                        <span class="forgot-password">Esqueceu a senha?</span>
+                    </div>
+                    <div class="continue-button">
+                        <button type="submit" name="enviar" >Entrar</button>
+                    </div>
+                    <div class="login-with-icons">
+                        <span>Faça login com:</span>
+                        <div class="icons">
+                            <a href="#"><i class="fab fa-google"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                    <div class="login-section">
+                        <p>Não tem uma conta?<a href="Tipo.html"><br>Cadastre-se</a></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
